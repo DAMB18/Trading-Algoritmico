@@ -1,0 +1,13 @@
+# --- Entorno de Deep Learning y Procesamiento ---
+tensorflow==2.15.0      # Motor principal para la red neuronal con Atención
+numpy==1.24.3           # Gestión de tensores y álgebra lineal
+pandas==2.1.1           # Manipulación de series temporales y archivos CSV
+
+# --- Análisis Cuantitativo y Estadística ---
+statsmodels==0.14.0     # Requerido para el cálculo de Half-Life de Ernest Chan
+scikit-learn==1.3.0     # Escalado de datos (MinMaxScaler) y métricas de validación
+
+# --- Utilidades de Sistema ---
+joblib==1.3.2           # Persistencia de objetos (carga del scaler_deep.pkl)
+matplotlib==3.8.0       # Generación de gráficos de desempeño y matrices
+seaborn==0.13.0          # Visualización avanzada de la matriz de confusión
